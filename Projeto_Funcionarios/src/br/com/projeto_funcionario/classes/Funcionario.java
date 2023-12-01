@@ -29,9 +29,9 @@ public class Funcionario extends Pessoa {
     @Override
     public String toString() {
         return
-                "nome='" + nome + '\'' +
-                ", dataNascimento=" + dataNascimento.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")) +
-                ", salario=" + DecimalFormat.getCurrencyInstance().format(salario) +
-                ", funcao='" + funcao + '\'';
+                "Nome= " + nome +
+                ", Data de nascimento= " + dataNascimento.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")) +
+                ", Salário= " + DecimalFormat.getCurrencyInstance().format(salario) +
+                ", Função= " + funcao ;
     }
 }
